@@ -1,0 +1,3 @@
+cd ezpaarse/
+. ./bin/env
+platform-init
