@@ -1,0 +1,34 @@
+{
+  "name": "emc",
+  "version": "2015-10-26",
+  "status": "stable",
+  "trello": "https://trello.com/c/V303n13o",
+  "longname": "Encyclopédie médico-chirurgicale (EMC) - EM Premium",
+  "publisher_name": "EMC-EM Premium",
+  "describe": "Identifie les consultations du site EMC-EM Premium",
+  "docurl": "http://analogist.couperin.org/platforms/emc",
+  "contact": "pamphile.isch at upmc.fr",
+  "domains": [
+    "www.em-premium.com"
+  ],
+  "recognize": {
+    "rid": [
+      "title_id",
+      "print_identifier",
+      "unitid"
+    ],
+    "rtype": [
+      "TOC",
+      "ABS",
+      "ARTICLE",
+      "BOOK",
+      "BOOKSERIE",
+      "HANDBOOK"
+    ],
+    "mime": [
+      "HTML",
+      "PDF",
+      "MISC"
+    ]
+  }
+}
